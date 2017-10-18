@@ -1,0 +1,30 @@
+#goL{
+	background: url(../img/go.png) no-repeat 5px 5px;
+	display: block;
+	width: 25px;
+	height: 50px;
+	position: absolute;
+	top: 85px;
+	left: -28px;
+}
+#goR{
+	background: url(../img/go.png) no-repeat -25px 5px;
+	display: block;
+	width: 25px;
+	height: 50px;
+	position: absolute;
+	top: 85px;
+	right:-28px;
+}
+*{margin:0;padding:0;list-style-type:none;}
+body{font-size:12px;line-height:180%;font-family:"宋体",Arial, Helvetica, sans-serif;}
+a,img{border:0;}
+a{color:#333;}
+a:hover{color:#fff;text-decoration:none;}
+.demopage{width:100%;margin-top: 40px;}
+.demopage h2{font-size:14px;margin:20px 0;}
+/* #marquee1 */
+#marquee{width:1205px;margin:0 auto;overflow:hidden;position: relative;}
+#marquee ul li{float:left;width:226px;padding-right: 15px;}
+#marquee ul li img{display:block; width: 224px;border:1px solid #ddd;}
+.control{height:24px;line-height:24px;overflow:hidden;padding:15px 0 0 0;}

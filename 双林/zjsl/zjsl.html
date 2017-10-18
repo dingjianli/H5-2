@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/zjsl.css" />
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/yx_rotaion.css"/>
+		<script type="text/javascript" src="js/jquery-1.3.1.js"></script>
+		<script src="js/wow.js"></script>
+		
+		<title></title>
+		<style>
+		ul#bcty365_nav{padding-left:50px; margin-bottom:10px; border-bottom:2px solid #ccc; overflow:hidden; _zoom:1;}
+		ul#bcty365_nav li{float:left; display:inline; margin:10px;}
+		ul#bcty365_nav li a{display:block;color:#000000; font-size:16px;}
+		ul#bcty365_nav li a,#wimoban_p,#wimoban_p a{ font-family:"微软雅黑";}
+		ul#bcty365_nav li a:hover,#wimoban_p a:hover{color:red;}
+		ul>li>div>p{
+			float: left;
+			width: 30%;
+		}
+		ul>li>div{
+			width: 100%;
+			height: 500px;
+		}
+		.apply{width:100%; height: 224px; margin-top: 95px; background: #e3e3e3;overflow: hidden;position: relative;}
+		.apply_array{width:226px;line-height: 220px;float:left;margin-top: 50px;margin-right:10px;}
+		.apply_last{margin-right:0px}
+		.apply_img{width:100%;height:100%;}
+		.apply_img>img{border: 1px solid #cccccc;}
+		.apply_array a{text-decoration:underline}
+		.apply_array a:hover{color:#e01111}
+		.apply_nav{position:relative;width:91%;float:left;height:252px;overflow:hidden}
+		.apply_w{position:absolute;margin-top:22px;width:1100px;float:left;left:0px}
+		.apply .img_l{padding:122px 12px 0 12px;float:left;cursor:pointer;}
+		.apply .img_r{position: absolute;top: 115px;right: 10px;cursor:pointer;}
+
+
+		</style>
+		
+<script type="text/javascript">
+$(function(){
+
+	$li1 = $(".apply_nav .apply_array");
+	$window1 = $(".apply .apply_w");
+	$left1 = $(".apply .img_l");
+	$right1 = $(".apply .img_r");
+	
+	$window1.css("width", $li1.length*226);
+
+	var lc1 = 0;
+	var rc1 = $li1.length-5;
+	
+	$left1.click(function(){
+		if (lc1 < 1) {
+			
+			return;
+		}
+		lc1--;
+		rc1++;
+		$window1.animate({left:'+=241px'}, 1000);
+	});
+
+	$right1.click(function(){
+		if (rc1 < 1){
+			
+			return;
+		}
+		lc1++;
+		rc1--;
+		$window1.animate({left:'-=241px'}, 1000);
+	});
+
+})
+</script>
+	</head>
+	<body>
+		<header>
+			<div class="top">
+				<p>股票代码:300100<span>25.96(0.00%)</span>|</p>
+				<div class="top_a">
+					<a>按访问者</a>
+					<ul>
+						<li><a href="../slzz/slzz.html">合作伙伴</a></li>
+						<li><a href="../xwdt/xxpl.html">投资者</a></li>
+						<li><a href="../jrsl/jrsl.html">求职者</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="nav">
+				<div class="logo">
+					<a href="../index.html"><img src="img/1.jpg" /></a>
+				</div>
+				<div class="left clearfix">
+				<ul>
+					<li>
+						<a href="zjsl.html">走进双林<a>
+						<div class="left_1 clearfix">
+							<div class="left_11">
+								<ul>
+									<li><a href="qyjs.html">企业介绍</a></li>
+									<li><a href="qywh.html">企业文化</a></li>
+									<li><a href="fzlc.html">发展历程</a></li>
+									<li><a href="zzry.html">资质荣誉</a></li>
+									<li><a href="yxsl.html">印象双林</a></li>
+									<li><a href="scjd.html">生产基地</a></li>
+									<li><a href="hzhb.html">合作伙伴</a></li>
+									<li><a href="lxsl.html">联系双林</a></li>
+								</ul>
+							</div>
+							<div class="right_1">
+								<img src="img/6.jpg" />
+								<h4>博采众长　创新发展　自成一家</h4>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="../xwdt/xwdt.html">新闻动态<a>
+						<div class="left_2">
+							<div class="left_21">
+								<ul>
+									<li><a href="../xwdt/sldt.html">双林动态</a></li>
+									<li><a href="../xwdt/spxw.html">视频新闻</a></li>
+									<li><a href="../xwdt/xxpl.html">信息披露</a></li>
+								</ul>
+							</div>
+							<div class="right_2">
+								<img src="img/7.jpg" />
+								<h4>实时聚焦双林动态</h4>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="../slzz/slzz.html">双林制作<a>
+						<div class="left_3">
+							<ul class="clearfix">
+								<li>
+									<h4><a href="../slzz/dlzc.html">动力和成</a></h4>
+									<h6><a href="../slzz/zdbs.html">自动变速箱</a></h6>
+									<ul>
+										<li><a href="../slzz/zdbs.html">6T前驱变速箱</a></li>
+										<li><a href="../slzz/zdbs.html">6T后驱变速箱</a></li>
+									</ul>
+									<h6><a href="../slzz/xnydl.html">新能源动力系统</a></h6>
+									<ul>
+										<li><a href="../slzz/xnydl.html">直流永磁同步电机</a></li>
+										<li><a href="../slzz/xnydl.html">电机控制系统</a></li>
+										<li><a href="../slzz/xnydl.html">整车控制系统</a></li>
+										<li><a href="../slzz/xnydl.html">电池控制系统</a></li>
+									</ul>
+								</li>
+								<li>
+									<h4><a href="../slzz/lzcc.html">轮懿轴承</a></h4>
+									<ul>
+										<li><a href="../slzz/lzcc.html">第一代轮懿轴承</a></li>
+										<li><a href="../slzz/lzcc.html">第二代轮懿轴承</a></li>
+										<li><a href="../slzz/lzcc.html">第三代轮懿轴承</a></li>
+										<li><a href="../slzz/lzcc.html">第四代轮懿轴承</a></li>
+									</ul>
+								</li>
+								<li>
+									<h4><a href="../slzz/xnydl.html">汽车饰件</a></h4>
+									<ul>
+										<li><a href="../slzz/xnydl.html">汽车内饰件</a></li>
+										<li><a href="../slzz/xnydl.html">汽车精密注塑件</a></li>
+									</ul>
+								</li>
+								<li>
+									<h4><a href="../slzz/lzcc.html">汽车机电</a></h4>
+									<ul>
+										<li><a href="../slzz/lzcc.html">电机</a></li>
+										<li><a href="../slzz/lzcc.html">驱动器</a></li>
+										<li><a href="../slzz/lzcc.html">软轴</a></li>
+										<li><a href="../slzz/lzcc.html">电子电气控制模块</a></li>
+										<li><a href="../slzz/lzcc.html">汽车冲压件</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="../jszx/jszx.html">技术中心<a>
+					</li>
+					<li>
+						<a href="../jrsl/jrsl.html">加入双林<a>
+						<div class="left_5">
+							<div class="left_51">
+								<ul>
+									<li><a href="../jrsl/rcln.html">人才理念</a></li>
+									<li><a>社会招聘</a></li>
+									<li><a href="../jrsl/xyzp.html">校园招聘</a></li>
+								</ul>
+							</div>
+							<div class="right_5">
+								<img src="img/6.jpg" />
+								<h4>加入双林 成就你我梦想</h4>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="../shzr/shzr.html">社会责任<a>
+					</li>
+				</ul>
+				</div>
+				<div class="right">
+					<img src="img/2.jpg" />
+					<a href="">EN</a>
+				</div>
+			</div>
+		</header>
+		<div class="slider7">
+					<div class="slider"><img src="img/50.jpg" /></div>
+		</div>
+			
+		<section>
+			<div class="shang wow fadeInUp" data-wow-delay='0.3s'>
+				<h2>走进双林</h2>
+				<p>双林集团股份有限公司目前是一家旗下拥有40家分子公司，产业涉及制造、旅游、教育等多项行业领域的投资控股集团。</p>
+			</div>
+			<div class="shang1 clearfix " >
+				<div class="left wow fadeInLeft" data-wow-delay='0.5s'>
+					<h2 style="margin-bottom: 10px;"><a href="qyjs.html">企业介绍</a></h2>
+					<p>双林集团始创于1987年，产业包括汽车部件制造、旅游休闲、教育等板块，宁波双林汽车部件股份有限公司是双林集团控股子公司，系中国A股上市高新技术企业（代码300100）</p>
+				</div>
+				<div class="right wow fadeInRight" data-wow-delay='0.5s'>
+						<img src="img/9.jpg" style="height: 420px;" />
+					<div class="right1">
+						<h1>1987</h1>
+						<p>公司成立</p>
+						<h1>300100</h1>
+						<p>股票代码</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="top wow fadeInUp" data-wow-delay='0.3s'>
+				<h2>发展历程</h2>
+				<p>集团始创于1987年，产业涉及制造、旅游、教育等多个领域，公司建有1个院士工作站、2个博士后科研工作站、3个高新技术企业研究开发中<br />心，1个国家认可实验室、公司连续数年跻身宁波市综合百强企业。</p>
+			</div>
+			<div class="button wow fadeInDown" data-wow-delay='0.3s'>
+				<div class="yx-rotaion">
+					<ul class="rotaion_list">
+						<li>
+							<div >
+								<p><span>积累沉淀</span>1987~2000</p>
+								<p><span>公司成立</span>1987年3月创立“宁海县塑料制品<br />厂”和“宁海县无线电模具厂”</p>
+								<p><img src="img/61.jpg"></p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<p><span>改革探索</span>2001~2010</p>
+								<p><span>进入汽车行业</span>2000年11月设立“宁波双林精密模具<br />有限公司”</p>
+								<p><img src="img/62.jpg"></p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<p><span>快速发展</span>2010~至今</p>
+								<p><span>公司上市</span>2010年8月深圳创业板上市</p>
+								<p><img src="img/63.jpg"></p>
+							</div>
+						</li>
+					</ul>
+					</div>
+				</div>
+
+		</section>
+		<section class="clearfix">
+			<div class="left_top wow fadeInLeft imgZoom" data-wow-delay='0.3s'>
+				<h2><a href="scjd.html">生产基地</a></h2>
+				<p>拥有20多处生产基地和上海、欧洲、北美、南美四处销售和售后服务网点</p>
+			</div>
+			<div class="right_top  wow fadeInRight imgZoom" data-wow-delay='0.3s'>
+				<img src="img/71.png" />
+			</div>
+			<div class="left_button wow fadeInLeft imgZoom" data-wow-delay='0.3s'>
+				<img src="img/72.jpg" />
+			</div>
+			<div class="right_button wow fadeInRight imgZoom" data-wow-delay='0.3s'>
+				<h2><a href="yxsl.html">双林印象</a></h2>
+				<p>力求满足客户需求，追求卓越，使双林成为备受社会尊重的企业</p>
+			</div>
+		</section>
+			<div class="apply">
+				<div class="img_l"><img src="img/left.png" /></div>
+				
+				<div class="apply_nav">
+					<div class="apply_w">
+					
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/81.jpg" /></div>
+						</div>
+						
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/82.jpg" /></div>
+						</div>
+					
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/83.jpg" /></div>
+							</div>
+					
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/84.jpg" /></div>
+						</div>
+					
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/85.jpg" /></div>
+							</div>
+						
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/86.jpg" /></div>
+						</div>
+						
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/87.jpg" /></div>
+						</div>
+						
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/88.jpg" /></div>
+						</div>
+						
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/89.jpg" /></div>
+						</div>
+						
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/90.jpg" /></div>
+						</div>
+						
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/81.jpg" /></div>
+						</div>
+						
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/82.jpg" /></div>
+						</div>
+						
+						<div class="apply_array">
+							<div class="apply_img"><img src="img/83.jpg" /></div>
+							
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="img_r"><img src="img/right.png" /></div>
+				
+			</div>
+		
+		<footer>
+			<div class="top">
+				<ul class="clearfix">
+					<li>
+						<h4>走进双林</h4>
+						<ul>
+							<li><a href="qyjs.html">企业介绍</a></li>
+							<li><a href="qywh.html">企业文化</a></li>
+							<li><a href="fzlc.html">发展历程</a></li>
+							<li><a href="zzry.html">资质荣誉</a></li>
+							<li><a href="yxsl.html">印象双林</a></li>
+							<li><a href="scjd.thml">生产基地</a></li>
+							<li><a href="hzhb.html">合作伙伴</a></li>
+							<li><a href="lxsl.html">联系双林</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>新闻动态</h4>
+					    <ul>
+							<li><a href="../xwdt/sldt.html">双林动态</a></li>
+							<li><a href="../xwdt/spxw.html">视频新闻</a></li>
+							<li><a href="../xwdt/xxpl.html">信息披露</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>双林智联</h4>
+						 <ul>
+							<li><a href="../slzz/dlzc.html">动力总成</a></li>
+							<li><a href="../slzz/lzcc.html">轮懿轴承</a></li>
+							<li><a href="../slzz/lzcc.html">汽车饰件</a></li>
+							<li><a href="../slzz/xnydl.html">汽车机电</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>联系方式</h4>
+						<ul>
+							<li><a href="#">电　话： +86(0)21-39785888</a></li>
+							<li><a href="#">传　真： +86(0)21-69225822</a></li>
+							<li><a href="#">Email： sales@shuanglin.com</a></li>
+							<li><a href="#">邮　编：201799</a></li>
+							<li><a href="#">地　址：上海市青浦区北盈路202号</a></li>
+						</ul>
+					</li>
+					<li>
+						<input type="text" value="全站搜索" onclick="this.value=''" onblur="this.value='全站搜索'" />
+						<i></i>
+						<p>关注我们</p>
+						<ul>
+							<li><a href="#" title="分享到新浪微博"></a></li>
+							<li><a href="#" title="分享到腾讯微博"></a></li>
+							<li><a href="#" title="分享到腾讯朋友"></a></li>
+							<li><a href="#" title="分享到QQ空间"></a></li>
+							<li><a href="#" title="分享到开心网"></a></li>
+							<li><a href="#" title="分享到豆瓣网"></a></li>
+							<li><a href="#" title=""></a><span></span></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="button">
+				<p><a href="#">双林集团  </a>版权所有 <a href="#">浙ICP备17002317号 </a></p>
+				<p><a href="#">法律声明</a> | <a href="#">网站地图</a> | <a href="#">隐私与安全</a> </p>
+				<p><a href="#">捷瑞数字</a> | 制作维护</p>
+			</div>
+		</footer>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.yx_rotaion.js"></script>
+		<script type="text/javascript">
+		$(".yx-rotaion").yx_rotaion({auto:true});
+		</script>
+
+		<script>
+			if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+			new WOW().init();}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/yxsl.css" />
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/yx_rotaion.css"/>
+		<script type="text/javascript" src="js/jquery-1.3.1.js"></script>
+		<script src="js/wow.js"></script>
+		
+		<title></title>
+		<style type="text/css">
+			ul,li,p {
+				display: block;
+			}
+			ul {
+				list-style: none;
+			}
+			a {
+				text-decoration: none;
+			}
+			.clearfix:after {
+				height: 0;
+				display: block;
+				content: '.';
+				clear: both;
+			}
+			.active {
+				color: #e65826 !important;
+				font-weight: bolder!important;
+    			border-color:#e65826 !important;
+				
+			}
+			.normal {
+				background: #CCCCCC;
+			}
+			#qj {
+				width: 1200px;
+				/*overflow: hidden;*/
+				margin: 0px auto;
+				margin-top: 50px;
+			}
+			#qj>ul {
+				width: 100%;
+			}
+			#qj>ul li:nth-of-type(1){
+				margin-left: 18%;
+			}
+			#qj>ul li {
+				height: 35px;
+				padding: 0 32px;
+				margin: 0 12px;
+				line-height: 30px;
+				text-align: center;
+				float: left;
+				cursor: pointer;
+				color: #414d89;
+				font-size: 14px;
+    			border: 2px solid #f1f1f1;
+			}
+			#qj>ul li:hover {
+				color: #e65826!important;
+			}
+			#qj #content {
+			}
+			#qj #content #pObj {
+				padding-left: 15px;
+				padding-top: 20px;
+				/*overflow: hidden;*/
+			}
+			.pArr {
+				height: 100%;
+				width: 100%;
+				padding-top: 50px;
+				
+			}
+			.zuo{
+				width: 49%;
+				margin-right: 2%;
+				overflow: hidden;
+				position: relative;
+				cursor: pointer !important;
+			}
+			.zuo>p{
+				height: 490px;
+			}
+			.zuo>p>img{
+				transform: scale(1.0,1.0);
+				transition: all 0.3s;
+				height: 490px;
+			}
+			.zuo>p:hover>img{
+				transform: scale(1.1,1.1);
+				
+			}
+			.you{
+				width: 49%;
+				cursor: pointer !important;
+			}
+			
+			.zuo>p>span{
+				display: block;
+				position: absolute;
+				bottom: 0px;
+				left: 0px;
+				font-size: 16px;
+				line-height: 49px;
+				padding-left: 3%;
+				width: 97.1%;
+				background: rgba(255,255,255,0.7);
+			}
+			.zuo,.you{
+				float: left !important;
+			}
+			.q2{
+				height: 138px;
+				background: url(img/qj4.jpg) no-repeat;
+			}
+			.q1>p:nth-of-type(1){
+				margin-right: 2%;
+			}
+			
+			.q1>p:nth-of-type(1),.q1>p:nth-of-type(2){
+				float: left;
+				width: 49%;
+				overflow: hidden;
+				height: 216px;
+				margin-bottom: 15px;
+				position: relative;
+			}
+			.q1>p:hover>img{
+				transform: scale(1.1,1.1);
+			}
+			.q1>p>img{
+				height: 216px;
+				transform: scale(1.0,1.0);
+				transition: all 0.3s;
+			}
+			.q1>p>span{
+				display: block;
+				position: absolute;
+				bottom: 0px;
+				left: 0px;
+				font-size: 16px;
+				line-height: 49px;
+				padding-left: 3%;
+				width: 97.1%;
+				background: rgba(255,255,255,0.7);
+			}
+			
+			.q1{
+				width: 100%;
+			}
+		</style>
+
+	</head>
+	<body>
+		<header>
+			<div class="top">
+				<p>股票代码:300100<span>25.96(0.00%)</span>|</p>
+				<div class="top_a">
+					<a>按访问者</a>
+					<ul>
+						<li><a href="../slzz/slzz.html">合作伙伴</a></li>
+						<li><a href="../xwdt/xxpl.html">投资者</a></li>
+						<li><a href="../jrsl/jrsl.html">求职者</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="nav">
+				<div class="logo">
+					<a href="../index.html"><img src="img/1.jpg" /></a>
+				</div>
+				<div class="left clearfix">
+				<ul>
+					<li>
+						<a href="zjsl.html">走进双林<a>
+						<div class="left_1 clearfix">
+							<div class="left_11">
+								<ul>
+									<li><a href="qyjs.html">企业介绍</a></li>
+									<li><a href="qywh.html">企业文化</a></li>
+									<li><a href="fzlc.html">发展历程</a></li>
+									<li><a href="zzry.html">资质荣誉</a></li>
+									<li><a href="yxsl.html">印象双林</a></li>
+									<li><a href="scjd.html">生产基地</a></li>
+									<li><a href="hzhb.html">合作伙伴</a></li>
+									<li><a href="lxsl.html">联系双林</a></li>
+								</ul>
+							</div>
+							<div class="right_1">
+								<img src="img/6.jpg" />
+								<h4>博采众长　创新发展　自成一家</h4>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="../xwdt/xwdt.html">新闻动态<a>
+						<div class="left_2">
+							<div class="left_21">
+								<ul>
+									<li><a href="../xwdt/sldt.html">双林动态</a></li>
+									<li><a href="../xwdt/spxw.html">视频新闻</a></li>
+									<li><a href="../xwdt/xxpl.html">信息披露</a></li>
+								</ul>
+							</div>
+							<div class="right_2">
+								<img src="img/7.jpg" />
+								<h4>实时聚焦双林动态</h4>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="../slzz/slzz.html">双林制作<a>
+						<div class="left_3">
+							<ul class="clearfix">
+								<li>
+									<h4><a href="../slzz/dlzc.html">动力和成</a></h4>
+									<h6><a href="../slzz/zdbs.html">自动变速箱</a></h6>
+									<ul>
+										<li><a href="../slzz/zdbs.html">6T前驱变速箱</a></li>
+										<li><a href="../slzz/zdbs.html">6T后驱变速箱</a></li>
+									</ul>
+									<h6><a href="../slzz/xnydl.html">新能源动力系统</a></h6>
+									<ul>
+										<li><a href="../slzz/xnydl.html">直流永磁同步电机</a></li>
+										<li><a href="../slzz/xnydl.html">电机控制系统</a></li>
+										<li><a href="../slzz/xnydl.html">整车控制系统</a></li>
+										<li><a href="../slzz/xnydl.html">电池控制系统</a></li>
+									</ul>
+								</li>
+								<li>
+									<h4><a href="../slzz/lzcc.html">轮懿轴承</a></h4>
+									<ul>
+										<li><a href="../slzz/lzcc.html">第一代轮懿轴承</a></li>
+										<li><a href="../slzz/lzcc.html">第二代轮懿轴承</a></li>
+										<li><a href="../slzz/lzcc.html">第三代轮懿轴承</a></li>
+										<li><a href="../slzz/lzcc.html">第四代轮懿轴承</a></li>
+									</ul>
+								</li>
+								<li>
+									<h4><a href="../slzz/xnydl.html">汽车饰件</a></h4>
+									<ul>
+										<li><a href="../slzz/xnydl.html">汽车内饰件</a></li>
+										<li><a href="../slzz/xnydl.html">汽车精密注塑件</a></li>
+									</ul>
+								</li>
+								<li>
+									<h4><a href="../slzz/lzcc.html">汽车机电</a></h4>
+									<ul>
+										<li><a href="../slzz/lzcc.html">电机</a></li>
+										<li><a href="../slzz/lzcc.html">驱动器</a></li>
+										<li><a href="../slzz/lzcc.html">软轴</a></li>
+										<li><a href="../slzz/lzcc.html">电子电气控制模块</a></li>
+										<li><a href="../slzz/lzcc.html">汽车冲压件</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="../jszx/jszx.html">技术中心<a>
+					</li>
+					<li>
+						<a href="../jrsl/jrsl.html">加入双林<a>
+						<div class="left_5">
+							<div class="left_51">
+								<ul>
+									<li><a href="../jrsl/rcln.html">人才理念</a></li>
+									<li><a>社会招聘</a></li>
+									<li><a href="../jrsl/xyzp.html">校园招聘</a></li>
+								</ul>
+							</div>
+							<div class="right_5">
+								<img src="img/6.jpg" />
+								<h4>加入双林 成就你我梦想</h4>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="../shzr/shzr.html">社会责任<a>
+					</li>
+				</ul>
+				</div>
+				<div class="right">
+					<img src="img/2.jpg" />
+					<a href="">EN</a>
+				</div>
+			</div>
+		</header>
+		<div class="slider7">
+					<div class="slider"><img src="img/50.jpg" /></div>
+		</div>
+		<section>
+			<h1>生产基地</h1>
+			<p><a href="../index.html">首页</a><span>></span><a href="zjsl.html">走进双林</a><span>></span>生产基地</p>
+			<div id="qj">
+				<ul class="clearfix">
+					<li class="active">
+						全部
+					</li>
+					<li>
+						基地全景
+					</li>
+					<li>
+						办公一角
+					</li>
+					<li>
+						生产车间
+					</li>
+					<li>
+						生活风采
+					</li>
+					<li>
+						节日庆典
+					</li>
+				</ul>
+				<div id="content">
+					<div class="pArr" style="display: block; ">
+						<div class="to clearfix">
+							<div class="zuo">
+								<p><img src="img/qj1.jpg" /><span>新表示全景</span></p>
+							</div>
+							<div class="you">
+								<div class="q1 clearfix">
+									<p><img src="img/qj2.jpg"/><span>精益求精</span></p>
+									<p><img src="img/qj3.jpg"/><span>工业之花</span></p>
+								</div>
+								<div class="q2">
+									<h2>双林印象</h2>
+									<h4>博采众长 创新发展 自成一家</h4>
+								</div>
+							</div>
+						</div>
+						<div class="quanbu">
+							<ul class="clearfix">
+								<li>
+									<span><img src="img/qj5.jpg"/></span>
+									新城公司
+								</li>
+								<li>
+									<span><img src="img/qj6.jpg"/></span>
+									足球活动
+								</li>
+								<li>
+									<span><img src="img/qj7.jpg"/></span>
+									杭州湾工厂
+								</li>
+								<li>
+									<span><img src="img/qj8.jpg"/></span>
+									双林集团总部
+								</li>
+								<li>
+									<span><img src="img/qj9.jpg"/></span>
+									DSI工厂全景
+								</li>
+								<li>
+									<span><img src="img/qj10.jpg"/></span>
+									双林集团总部大楼
+								</li>
+								<li>
+									<span><img src="img/qj11.jpg"/></span>
+									新火炬
+								</li>
+								<li>
+									<span><img src="img/qj12.jpg"/></span>
+									天津乐跑
+								</li>
+								<li>
+									<span><img src="img/qj13.jpg"/></span>
+									力量的体现
+								</li>
+								<li>
+									<span><img src="img/qj14.jpg"/></span>
+									乐跑
+								</li>
+								<li>
+									<span><img src="img/qj15.jpg"/></span>
+									巾帼不让须眉
+								</li>
+								<li>
+									<span><img src="img/qj16.jpg"/></span>
+									辩论赛
+								</li>
+								<li>
+									<span><img src="img/qj17.jpg"/></span>
+									欢乐的跳吧
+								</li>
+								<li>
+									<span><img src="img/qj18.jpg"/></span>
+									圆梦双林，接力辉煌
+								</li>
+								<li>
+									<span><img src="img/qj19.jpg"/></span>
+									生产标兵
+								</li>
+								<li>
+									<span><img src="img/qj20.jpg"/></span>
+									2016元旦晚会大合照
+								</li>
+								<li>
+									<span><img src="img/qj21.jpg"/></span>
+									总成测试线
+								</li>
+								<li>
+									<span><img src="img/qj22.jpg"/></span>
+									物流仓库区
+								</li>
+								<li>
+									<span><img src="img/qj23.jpg"/></span>
+									离合器分装线全景图
+								</li>
+								<li>
+									<span><img src="img/qj24.jpg"/></span>
+									阀体分装线全景图
+								</li>
+								<li>
+									<span><img src="img/qj25.jpg"/></span>
+									员工休憩区
+								</li>
+								<li>
+									<span><img src="img/qj26.jpg"/></span>
+									实验室
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="pArr" style="display: none;">
+						<div class="quanbu">
+							<ul class="clearfix">
+								<li>
+									<span><img src="img/qj5.jpg"/></span>
+									新城公司
+								</li>
+								<li>
+									<span><img src="img/qj7.jpg"/></span>
+									杭州湾工厂
+								</li>
+								<li>
+									<span><img src="img/qj8.jpg"/></span>
+									双林集团总部
+								</li>
+								<li>
+									<span><img src="img/qj9.jpg"/></span>
+									DSI工厂全景
+								</li>
+								<li>
+									<span><img src="img/qj10.jpg"/></span>
+									双林集团总部大楼
+								</li>
+								<li>
+									<span><img src="img/qj11.jpg"/></span>
+									新火炬
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="pArr" style="display: none;">
+						<div class="quanbu">
+							<ul class="clearfix">
+								<li>
+									<span><img src="img/qj25.jpg"/></span>
+									员工休憩区
+								</li>
+								<li>
+									<span><img src="img/qj26.jpg"/></span>
+									实验室
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="pArr" style="display: none;">
+						<div class="quanbu">
+							<ul class="clearfix">
+								<li>
+									<span><img src="img/qj21.jpg"/></span>
+									总成测试线
+								</li>
+								<li>
+									<span><img src="img/qj22.jpg"/></span>
+									物流仓库区
+								</li>
+								<li>
+									<span><img src="img/qj23.jpg"/></span>
+									离合器分装线全景图
+								</li>
+								<li>
+									<span><img src="img/qj24.jpg"/></span>
+									阀体分装线全景图
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="pArr" style="display: none;">
+						<div class="quanbu">
+							<ul class="clearfix">
+								<li>
+									<span><img src="img/qj6.jpg"/></span>
+									足球活动
+								</li>
+								<li>
+									<span><img src="img/qj12.jpg"/></span>
+									天津乐跑
+								</li>
+								<li>
+									<span><img src="img/qj13.jpg"/></span>
+									力量的体现
+								</li>
+								<li>
+									<span><img src="img/qj14.jpg"/></span>
+									乐跑
+								</li>
+								<li>
+									<span><img src="img/qj15.jpg"/></span>
+									巾帼不让须眉
+								</li>
+								<li>
+									<span><img src="img/qj16.jpg"/></span>
+									辩论赛
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="pArr" style="display: none;">
+						<div class="quanbu">
+							<ul class="clearfix">
+								<li>
+									<span><img src="img/qj17.jpg"/></span>
+									欢乐的跳吧
+								</li>
+								<li>
+									<span><img src="img/qj18.jpg"/></span>
+									圆梦双林，接力辉煌
+								</li>
+								<li>
+									<span><img src="img/qj19.jpg"/></span>
+									生产标兵
+								</li>
+								<li>
+									<span><img src="img/qj20.jpg"/></span>
+									2016元旦晚会大合照
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+			<script type="text/javascript">
+			window.onload = function() {
+				var qjObj = document.getElementById("qj");
+				var liObj = qjObj.getElementsByTagName("li");
+				var pObj = document.getElementsByClassName("pArr");
+				for(var i = 0; i < 6; i++) {
+					liObj[i].index = i;
+					liObj[i].onmouseover = function() {
+						for(var j = 0; j < 6; j++) {
+							liObj[j].className = "";
+							pObj[j].style.display = "none";
+						}
+						this.className = "active";
+						pObj[this.index].style.display = "block";
+					}
+				}
+			}
+		</script>
+		<footer>
+			<div class="top">
+				<ul class="clearfix">
+					<li>
+						<h4>走进双林</h4>
+						<ul>
+							<li><a href="qyjs.html">企业介绍</a></li>
+							<li><a href="qywh.html">企业文化</a></li>
+							<li><a href="fzlc.html">发展历程</a></li>
+							<li><a href="zzry.html">资质荣誉</a></li>
+							<li><a href="yxsl.html">印象双林</a></li>
+							<li><a href="scjd.html">生产基地</a></li>
+							<li><a href="hzhb.html">合作伙伴</a></li>
+							<li><a href="lxsl.html">联系双林</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>新闻动态</h4>
+					    <ul>
+							<li><a href="../xwdt/sldt.html">双林动态</a></li>
+							<li><a href="../xwdt/spxw.html">视频新闻</a></li>
+							<li><a href="../xwdt/xxpl.html">信息披露</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>双林智联</h4>
+						 <ul>
+							<li><a href="../slzz/dlzc.html">动力总成</a></li>
+							<li><a href="../slzz/lzcc.html">轮懿轴承</a></li>
+							<li><a href="../slzz/lzcc.html">汽车饰件</a></li>
+							<li><a href="../slzz/xnydl.html">汽车机电</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>联系方式</h4>
+						<ul>
+							<li><a href="#">电　话： +86(0)21-39785888</a></li>
+							<li><a href="#">传　真： +86(0)21-69225822</a></li>
+							<li><a href="#">Email： sales@shuanglin.com</a></li>
+							<li><a href="#">邮　编：201799</a></li>
+							<li><a href="#">地　址：上海市青浦区北盈路202号</a></li>
+						</ul>
+					</li>
+					<li>
+						<input type="text" value="全站搜索" onclick="this.value=''" onblur="this.value='全站搜索'" />
+						<i></i>
+						<p>关注我们</p>
+						<ul>
+							<li><a href="#" title="分享到新浪微博"></a></li>
+							<li><a href="#" title="分享到腾讯微博"></a></li>
+							<li><a href="#" title="分享到腾讯朋友"></a></li>
+							<li><a href="#" title="分享到QQ空间"></a></li>
+							<li><a href="#" title="分享到开心网"></a></li>
+							<li><a href="#" title="分享到豆瓣网"></a></li>
+							<li><a href="#" title=""></a><span></span></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="button">
+				<p><a href="#">双林集团  </a>版权所有 <a href="#">浙ICP备17002317号 </a></p>
+				<p><a href="#">法律声明</a> | <a href="#">网站地图</a> | <a href="#">隐私与安全</a> </p>
+				<p><a href="#">捷瑞数字</a> | 制作维护</p>
+			</div>
+		</footer>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.yx_rotaion.js"></script>
+		<script type="text/javascript">
+		$(".yx-rotaion").yx_rotaion({auto:true});
+		</script>
+
+		<script>
+			if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+			new WOW().init();}
+		</script>
+		<script src="js/cbpFWTabs.js"></script>
+		<script>
+			new CBPFWTabs( document.getElementById( 'tabs' ) );
+		</script>
+	</body>
+</html>
